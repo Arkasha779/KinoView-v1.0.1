@@ -1,0 +1,76 @@
+﻿<Window x:Class="KinoView.F1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KinoView"
+        mc:Ignorable="d" Height="652" Width="1024" MaxHeight="652" MaxWidth="1024" MinHeight="652" MinWidth="1024">
+    <Grid Background="Black">
+        <Label Content="Лига справедливости Зака Снайдера" HorizontalAlignment="Left" Margin="24,10,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Comic Sans MS" FontSize="22" FontWeight="Bold"/>
+        <Image HorizontalAlignment="Left" Height="186" Margin="28,51,0,0" VerticalAlignment="Top" Width="135" Source="img/1.jpg"/>
+        <Label Content="Описание" HorizontalAlignment="Left" Margin="164,373,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Comic Sans MS" FontSize="24" FontWeight="Bold"/>
+        <Button x:Name="bb9" Content="Дата выхода" HorizontalAlignment="Left" Margin="168,154,0,0" VerticalAlignment="Top" Width="158" Click="bb9_Click" Background="{x:Null}" Foreground="White" FontFamily="Comic Sans MS" FontSize="22" FontWeight="Bold">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+            <Button.BorderBrush>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.BorderBrush>
+        </Button>
+        <Label Content="Режиссёр" HorizontalAlignment="Left" Margin="164,56,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Comic Sans MS" FontSize="22" FontWeight="Bold"/>
+        <Label Content="18+" HorizontalAlignment="Left" Margin="459,329,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Comic Sans MS" FontSize="22" FontWeight="Bold"/>
+        <Label Content="Возрастное ограничение" HorizontalAlignment="Left" Margin="164,327,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Comic Sans MS" FontSize="22" FontWeight="Bold"/>
+        <Label Content="8,0" HorizontalAlignment="Left" Margin="283,281,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Comic Sans MS" FontSize="22"/>
+        <Label Content="Рейтинг" HorizontalAlignment="Left" Margin="164,281,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Comic Sans MS" FontSize="22" FontWeight="Bold"/>
+        <Label Content="США, Великобритания" HorizontalAlignment="Left" Margin="263,240,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Comic Sans MS" FontSize="22" FontWeight="Normal"/>
+        <Label Content="Страны" HorizontalAlignment="Left" Margin="164,235,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Comic Sans MS" FontSize="22" FontWeight="Bold"/>
+        <Label Content="Боевик" HorizontalAlignment="Left" Margin="416,194,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Comic Sans MS" FontSize="22"/>
+        <Label Content="Жанр" HorizontalAlignment="Left" Margin="164,194,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Comic Sans MS" FontSize="22" FontWeight="Bold"/>
+        <Label Content="- 03 - 18" HorizontalAlignment="Left" Margin="418,151,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Comic Sans MS" FontSize="22"/>
+        <Label Content="Бен Аффлек, Генри Кавилл, Галь Гадот, Эзра Миллер" HorizontalAlignment="Left" Margin="286,102,0,0" VerticalAlignment="Top" Foreground="White" Width="697" FontFamily="Comic Sans MS" FontSize="22"/>
+        <Label Content="Актёры" HorizontalAlignment="Left" Margin="164,102,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Comic Sans MS" FontSize="22" FontWeight="Bold"/>
+        <Label Content="Зак Снайдер" HorizontalAlignment="Left" Margin="286,56,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Comic Sans MS" FontSize="22"/>
+        <TextBox HorizontalAlignment="Left" Height="221" Margin="304,378,0,0" TextWrapping="Wrap" Text="Вдохновившись самопожертвованием Супермена, Брюс Уэйн вновь обретает веру в человечество. Он заручается поддержкой новой союзницы Дианы Принс, чтобы сразиться с ещё более могущественным противником. Бэтмен и Чудо-женщина набирают команду сверхлюдей для борьбы с пробудившейся угрозой." VerticalAlignment="Top" Width="591" RenderTransformOrigin="0.158,0.087" Background="{x:Null}" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" Foreground="White" FontFamily="Comic Sans MS" FontSize="22"/>
+        <Button x:Name="bb9_Copy" Content="2021" HorizontalAlignment="Left" Margin="352,154,0,0" VerticalAlignment="Top" Width="59" Click="bb9c_Click" Background="{x:Null}" Foreground="White" FontFamily="Comic Sans MS" FontSize="22">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+            <Button.BorderBrush>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.BorderBrush>
+        </Button>
+        <Button x:Name="bb9_Copy1" Content="Фантастика" HorizontalAlignment="Left" Margin="275,197,0,0" VerticalAlignment="Top" Width="136" Click="bb9c1_Click" Background="{x:Null}" Foreground="White" FontFamily="Comic Sans MS" FontSize="22">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+            <Button.BorderBrush>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.BorderBrush>
+        </Button>
+
+    </Grid>
+</Window>
